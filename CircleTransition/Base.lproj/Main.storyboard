@@ -69,6 +69,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="WKS-9H-VQm"/>
+                    <connections>
+                        <outlet property="button" destination="DLv-14-Dlo" id="ARC-Ga-U29"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ctV-3M-0oK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -121,6 +124,9 @@
                             <constraint firstItem="eaY-z6-3RR" firstAttribute="top" secondItem="fVo-rX-KGr" secondAttribute="bottom" constant="10" id="sFS-jx-K1V"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="button" destination="eaY-z6-3RR" id="Cah-FL-R4V"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GBG-qp-S7W" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
