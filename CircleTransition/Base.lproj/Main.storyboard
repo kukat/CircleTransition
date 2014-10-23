@@ -14,10 +14,12 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
+                        <outlet property="delegate" destination="udl-IU-Kg9" id="XiK-KT-dG0"/>
                         <segue destination="2Q5-v8-qVQ" kind="relationship" relationship="rootViewController" id="N9s-uu-oc1"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Ad-lp-gFK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="udl-IU-Kg9" customClass="NavigationControllerDelegate" customModule="CircleTransition" customModuleProvider="target"/>
             </objects>
             <point key="canvasLocation" x="-64" y="397"/>
         </scene>
@@ -33,8 +35,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DLv-14-Dlo">
-                                <rect key="frame" x="530" y="74" width="44" height="44"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DLv-14-Dlo">
+                                <rect key="frame" x="530" y="30" width="44" height="44"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="tPD-y0-HQQ"/>
@@ -69,6 +71,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="WKS-9H-VQm"/>
+                    <connections>
+                        <outlet property="button" destination="DLv-14-Dlo" id="WJY-4L-dSB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ctV-3M-0oK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -121,6 +126,9 @@
                             <constraint firstItem="eaY-z6-3RR" firstAttribute="top" secondItem="fVo-rX-KGr" secondAttribute="bottom" constant="10" id="sFS-jx-K1V"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="button" destination="eaY-z6-3RR" id="xuX-Ba-1tV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GBG-qp-S7W" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
