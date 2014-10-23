@@ -13,6 +13,8 @@
 		12D6529D19F858C800D5EFA6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12D6529C19F858C800D5EFA6 /* Images.xcassets */; };
 		12D652A019F858C800D5EFA6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12D6529E19F858C800D5EFA6 /* LaunchScreen.xib */; };
 		12D652AC19F858C800D5EFA6 /* CircleTransitionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D652AB19F858C800D5EFA6 /* CircleTransitionTests.swift */; };
+		12D652B719F8F89B00D5EFA6 /* iphone.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 12D652B519F8F89B00D5EFA6 /* iphone.jpg */; };
+		12D652B819F8F89B00D5EFA6 /* ipad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 12D652B619F8F89B00D5EFA6 /* ipad.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		12D652A519F858C800D5EFA6 /* CircleTransitionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircleTransitionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		12D652AA19F858C800D5EFA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		12D652AB19F858C800D5EFA6 /* CircleTransitionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleTransitionTests.swift; sourceTree = "<group>"; };
+		12D652B519F8F89B00D5EFA6 /* iphone.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iphone.jpg; sourceTree = "<group>"; };
+		12D652B619F8F89B00D5EFA6 /* ipad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ipad.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +86,8 @@
 				12D6529919F858C800D5EFA6 /* Main.storyboard */,
 				12D6529C19F858C800D5EFA6 /* Images.xcassets */,
 				12D6529E19F858C800D5EFA6 /* LaunchScreen.xib */,
+				12D652B519F8F89B00D5EFA6 /* iphone.jpg */,
+				12D652B619F8F89B00D5EFA6 /* ipad.jpg */,
 				12D6529319F858C800D5EFA6 /* Supporting Files */,
 			);
 			path = CircleTransition;
@@ -192,6 +198,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12D652B719F8F89B00D5EFA6 /* iphone.jpg in Resources */,
+				12D652B819F8F89B00D5EFA6 /* ipad.jpg in Resources */,
 				12D6529B19F858C800D5EFA6 /* Main.storyboard in Resources */,
 				12D652A019F858C800D5EFA6 /* LaunchScreen.xib in Resources */,
 				12D6529D19F858C800D5EFA6 /* Images.xcassets in Resources */,
