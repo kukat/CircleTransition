@@ -19,7 +19,11 @@
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Ad-lp-gFK" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <customObject id="udl-IU-Kg9" customClass="NavigationControllerDelegate" customModule="CircleTransition" customModuleProvider="target"/>
+                <customObject id="udl-IU-Kg9" customClass="NavigationControllerDelegate" customModule="CircleTransition" customModuleProvider="target">
+                    <connections>
+                        <outlet property="navigationController" destination="lbN-Zq-FMY" id="h5f-8D-IF5"/>
+                    </connections>
+                </customObject>
             </objects>
             <point key="canvasLocation" x="-64" y="397"/>
         </scene>
@@ -51,7 +55,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <segue destination="1xP-M3-TrV" kind="show" id="9F5-OV-ypG"/>
+                                    <segue destination="1xP-M3-TrV" kind="show" identifier="PushSegue" id="9F5-OV-ypG"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ipad.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Hwi-80-wyL">
