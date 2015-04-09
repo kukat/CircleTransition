@@ -20,8 +20,8 @@ class CircleTransitionAnimator: NSObject, UIViewControllerAnimatedTransitioning 
     self.transitionContext = transitionContext
     
     var containerView = transitionContext.containerView()
-    var fromViewController = transitionContext.viewControllerForKey(UITransitionContextFromViewControllerKey) as ViewController
-    var toViewController = transitionContext.viewControllerForKey(UITransitionContextToViewControllerKey) as ViewController
+    var fromViewController = transitionContext.viewControllerForKey(UITransitionContextFromViewControllerKey) as! ViewController
+    var toViewController = transitionContext.viewControllerForKey(UITransitionContextToViewControllerKey) as! ViewController
     var button = fromViewController.button
     
     containerView.addSubview(toViewController.view)

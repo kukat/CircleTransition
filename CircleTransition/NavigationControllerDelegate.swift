@@ -47,7 +47,15 @@ class NavigationControllerDelegate: NSObject, UINavigationControllerDelegate {
   }
   
   func navigationController(navigationController: UINavigationController, animationControllerForOperation operation: UINavigationControllerOperation, fromViewController fromVC: UIViewController, toViewController toVC: UIViewController) -> UIViewControllerAnimatedTransitioning? {
-    return CircleTransitionAnimator()
+    
+    switch operation {
+    case .Push:
+      return CircleTransitionAnimator()
+    case .Pop:
+      return CircleTransitionPopAnimator()
+    default:
+      return nil
+    }
   }
   
   func navigationController(navigationController: UINavigationController, interactionControllerForAnimationController animationController: UIViewControllerAnimatedTransitioning) -> UIViewControllerInteractiveTransitioning? {

@@ -23,7 +23,7 @@ class ViewController: UIViewController {
   }
   
   @IBAction func circleTapped(sender:UIButton) {
-    self.navigationController?.popViewControllerAnimated(true)
+    self.performSegueWithIdentifier("PushSegue", sender: self)
   }
   
 }

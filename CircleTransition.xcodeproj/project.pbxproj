@@ -17,6 +17,8 @@
 		12D652B819F8F89B00D5EFA6 /* ipad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 12D652B619F8F89B00D5EFA6 /* ipad.jpg */; };
 		12D652BA19F908D400D5EFA6 /* NavigationControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D652B919F908D400D5EFA6 /* NavigationControllerDelegate.swift */; };
 		12D652BC19F9102B00D5EFA6 /* CircleTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D652BB19F9102B00D5EFA6 /* CircleTransitionAnimator.swift */; };
+		FA83AD4F1AD6E58E0086C8E6 /* CircleTransitionPopAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA83AD4E1AD6E58E0086C8E6 /* CircleTransitionPopAnimator.swift */; };
+		FA83AD511AD6E8760086C8E6 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA83AD501AD6E8760086C8E6 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		12D652B619F8F89B00D5EFA6 /* ipad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ipad.jpg; sourceTree = "<group>"; };
 		12D652B919F908D400D5EFA6 /* NavigationControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = NavigationControllerDelegate.swift; sourceTree = "<group>"; };
 		12D652BB19F9102B00D5EFA6 /* CircleTransitionAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = CircleTransitionAnimator.swift; sourceTree = "<group>"; tabWidth = 2; };
+		FA83AD4E1AD6E58E0086C8E6 /* CircleTransitionPopAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleTransitionPopAnimator.swift; sourceTree = "<group>"; };
+		FA83AD501AD6E8760086C8E6 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,8 +91,10 @@
 			children = (
 				12D6529519F858C800D5EFA6 /* AppDelegate.swift */,
 				12D6529719F858C800D5EFA6 /* ViewController.swift */,
+				FA83AD501AD6E8760086C8E6 /* SecondViewController.swift */,
 				12D6529919F858C800D5EFA6 /* Main.storyboard */,
 				12D652BB19F9102B00D5EFA6 /* CircleTransitionAnimator.swift */,
+				FA83AD4E1AD6E58E0086C8E6 /* CircleTransitionPopAnimator.swift */,
 				12D652B919F908D400D5EFA6 /* NavigationControllerDelegate.swift */,
 				12D6529C19F858C800D5EFA6 /* Images.xcassets */,
 				12D6529E19F858C800D5EFA6 /* LaunchScreen.xib */,
@@ -226,6 +232,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA83AD511AD6E8760086C8E6 /* SecondViewController.swift in Sources */,
+				FA83AD4F1AD6E58E0086C8E6 /* CircleTransitionPopAnimator.swift in Sources */,
 				12D6529819F858C800D5EFA6 /* ViewController.swift in Sources */,
 				12D652BC19F9102B00D5EFA6 /* CircleTransitionAnimator.swift in Sources */,
 				12D652BA19F908D400D5EFA6 /* NavigationControllerDelegate.swift in Sources */,
@@ -421,6 +429,7 @@
 				12D652B119F858C800D5EFA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		12D652B219F858C800D5EFA6 /* Build configuration list for PBXNativeTarget "CircleTransitionTests" */ = {
 			isa = XCConfigurationList;
@@ -429,6 +438,7 @@
 				12D652B419F858C800D5EFA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
